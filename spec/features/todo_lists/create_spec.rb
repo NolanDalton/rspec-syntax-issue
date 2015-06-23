@@ -29,5 +29,4 @@ describe "Creating todo lists" do
 
     visit "/todo_lists"
     expect(page).to_not have_content("This is what I'm doing today")
-  end
 end
